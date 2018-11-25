@@ -14,6 +14,7 @@ export const jestVersion = '^23.0.0';
 export const jestPresetAngularVersion = '6.0.1';
 export const jasmineMarblesVersion = '0.4.0';
 export const cypressVersion = '^3.1.0';
+export const testcafeVersion = '^0.23.2';
 
 export const expressVersion = '4.16.3';
 export const expressTypingsVersion = '4.16.0';

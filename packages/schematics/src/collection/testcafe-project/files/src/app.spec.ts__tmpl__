@@ -1,0 +1,11 @@
+import { Selector } from 'testcafe';
+import Page from './app-page-model';
+
+const page = new Page();
+
+fixture `Hello Nx`
+  .page `http://localhost:4200/`
+
+test('Should display welcome message', async t => {
+  await t.expect(page.greeting.innerText).eql('Welcome to <%= relatedProjectName %>!');
+});

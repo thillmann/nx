@@ -20,6 +20,11 @@
       "class": "./cypress/cypress.builder",
       "schema": "./cypress/schema.json",
       "description": "Run Cypress e2e tests"
+    },
+    "test-cafe": {
+      "class": "./test-cafe/test-cafe.builder",
+      "schema": "./test-cafe/schema.json",
+      "description": "Run TestCafe e2e tests"
     }
   }
 }

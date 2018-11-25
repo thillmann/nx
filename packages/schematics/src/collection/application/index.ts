@@ -355,6 +355,12 @@ export default function(schema: Schema): Rule {
             project: options.name
           })
         : noop(),
+      options.e2eTestRunner === 'testcafe'
+        ? schematic('testcafe-project', {
+            ...options,
+            project: options.name
+          })
+        : noop(),
 
       move(appProjectRoot, options.appProjectRoot),
       updateProject(options),

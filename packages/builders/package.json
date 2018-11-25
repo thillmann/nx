@@ -13,7 +13,8 @@
     "Workspace",
     "Builders",
     "Angular CLI",
-    "Cypress"
+    "Cypress",
+    "TestCafe"
   ],
   "main": "index.js",
   "types": "index.d.js",

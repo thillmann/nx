@@ -64,6 +64,13 @@
       "hidden": true
     },
 
+    "testcafe-project": {
+      "factory": "./collection/testcafe-project",
+      "schema": "./collection/testcafe-project/schema.json",
+      "description": "Add TestCafe configuration to a project",
+      "hidden": true
+    },
+
     "upgrade-module": {
       "factory": "./collection/upgrade-module",
       "schema": "./collection/upgrade-module/schema.json",
